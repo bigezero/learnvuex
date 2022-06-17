@@ -8,6 +8,11 @@ import Part from '@/views/Part'
 
 Vue.use(VueRouter)
 
+import Vuex from 'vuex'
+Vue.use(Vuex)
+
+
+
 const routes = [
   {
     path: "/find",

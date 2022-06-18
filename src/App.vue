@@ -4,6 +4,7 @@
       <router-link to="/find">发现音乐</router-link>
       <router-link to="/my">我的音乐</router-link>
       <router-link to="/part">朋友</router-link>
+      
     </div>
     <div class="top">
       <router-view></router-view>
@@ -12,7 +13,12 @@
 </template>
 
 <script>
-export default {};
+import button from './components/button.vue'
+export default {
+  components:{
+    button
+  }
+};
 </script>
 
 <style scoped>
